@@ -1,0 +1,78 @@
+.stock {
+   margin-bottom: 75px;
+}
+
+.stock-container {
+   background-image: url(./../../img/stock/bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   max-width: 950px;
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+
+   @media (min-width: 720px) {
+      height: 105px;
+   }
+
+   &::before {
+      content: "";
+      display: none;
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      width: 55px;
+      height: 80px;
+      background-image: url(../../img/stock/arrow-l.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media (min-width: 1024px) {
+         display: block;
+      }
+   }
+
+   &::after {
+      content: "";
+      display: none;
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      width: 55px;
+      height: 80px;
+      background-image: url(./../../img/stock/arrow-r.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media (min-width: 1024px) {
+         display: block;
+      }
+   }
+
+}
+
+.stock-title {
+   text-align: center;
+   display: block;
+   font-size: 30px;
+   font-family: "Akrobat";
+   color: #004734;
+   text-transform: uppercase;
+   line-height: 1.6;
+   max-width: 950px;
+   width: 100%;
+
+   @media (min-width: 720px) {
+      font-size: 48px;
+   }
+}
+
+.fonts-color {
+   color: #de4814;
+   font-size: 32px;
+
+   @media (min-width: 720px) {
+      font-size: 62px;
+   }
+}

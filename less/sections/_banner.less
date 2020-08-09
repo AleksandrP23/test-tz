@@ -1,0 +1,115 @@
+.banner {
+   height: 150px;
+   background-color: #f0f0ea;
+   position: relative;
+   background-image: url(../../img/banne/bg.png);
+   background-position: center;
+   margin-top: 140px;
+   box-shadow: 0px 0px 15px 0px rgba(16, 17, 17, 0.4);
+
+   @media (min-width: 468px) {
+      margin-top: 65px;
+   }
+
+   @media (min-width: 720px) {
+      height: 250px;
+      margin-bottom: 65px;
+   }
+}
+
+.banner-l {
+   display: none;
+   position: absolute;
+   left: 0;
+
+   @media (min-width: 1024px) {
+      display: block;
+      width: auto;
+   }
+}
+
+.banner-lt {
+   position: absolute;
+   display: none;
+   top: 0;
+   left: 23%;
+
+   @media (min-width: 1350px) {
+      display: block;
+   }
+}
+
+.banner-rc {
+   position: absolute;
+   right: 14%;
+   display: none;
+   bottom: 0px;
+   z-index: 1;
+
+   @media (min-width: 1200px) {
+      display: block;
+   }
+}
+
+.banner-r {
+   display: none;
+   position: absolute;
+   right: 0;
+
+   @media (min-width: 950px) {
+      display: block;
+   }
+}
+
+.banner-rb {
+   position: absolute;
+   display: none;
+   right: 4%;
+   bottom: -50%;
+
+   @media (min-width: 950px) {
+      display: block;
+   }
+}
+
+.banner-rt {
+   position: absolute;
+   display: none;
+   right: 1%;
+   top: 3%;
+}
+
+.banner-rbc {
+   display: none;
+   position: absolute;
+   bottom: 27%;
+}
+
+.banner-rcl {
+   position: absolute;
+   display: none;
+   right: 9%;
+   bottom: 33%;
+}
+
+.banner-title {
+   font-size: 55px;
+   font-family: 'Arctika script';
+   color: rgb(186, 23, 21);
+   line-height: 50px;
+   text-shadow: 0px 4px 8px rgba(16, 17, 17, 0.75);
+   -webkit-text-stroke: 2px #f8f8f8;
+   max-width: 500px;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 20px;
+
+   @media (min-width: 720px) {
+      font-size: 108.333px;
+      line-height: 100px;
+      padding-left: 90px;
+      text-align: left;
+      -webkit-text-stroke: 3px #f8f8f8;
+   }
+}
